@@ -8,3 +8,32 @@
     min-height: 100vh;
     margin: 0;
   }
+
+
+  .loader {
+    width: 69px;
+    height: 69px;
+    border: 9px solid goldenrod;
+    border-bottom-color: gold;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+    animation: rotation 1.2s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loader-hide {
+    display: none;
+  }
