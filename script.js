@@ -12,20 +12,20 @@ fetch(
     const card = document.createElement("div");
     card.className = "film-card";
 
-    const heading= document.createElement("h3");
-    heading.textContent = film.title;
+    const title= document.createElement("h3");
+    title.textContent = `title: ${film.title}`;
     
     
 
     const description = document.createElement("p");
     description.textContent = `description: ${film.description}`;
-    console.log(film);
+    console.log(data.articles);
 
     const author = document.createElement("h4");
-    author.textContent = film.author;
+    author.textContent = `author: ${film.author}`;
 
     const publishedAt = document.createElement("p");
-    publishedAt.textContent = film.publishedAt;
+    publishedAt.textContent = `publishedAt: ${film.publishedAt}`;
 
     const img = document.createElement("img");
     img.src = film.urlToImage[0];
