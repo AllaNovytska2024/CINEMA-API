@@ -9,18 +9,16 @@ body {
   margin: 0;
 }
 
-
-
 header {
   position: sticky;
   top: 0px;
-  color: white;
+
   display: flex;
-  padding: 15px 20px;
+  padding: 25px 20px;
   width: 100%;
-  height: 95px;
+  height: 75px;
   background-color: rgb(101, 121, 234);
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 80%;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
@@ -29,13 +27,13 @@ header {
 main {
   padding: 0px;
   flex: 1;
-  background-color: rgb(237, 237, 161);
+  background-color: rgb(249, 249, 182);
 }
 
 .loader {
   width: 69px;
   height: 69px;
-  border: 9px solid goldenrod;
+  border: 9px solid rgb(236, 72, 8);
   border-bottom-color: gold;
   border-radius: 50%;
   display: block;
@@ -65,10 +63,9 @@ footer {
   height: 50px;
   background-color: gold;
   text-align: center;
-  
 }
 
-.container-film{
+.container-film {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
@@ -78,12 +75,9 @@ footer {
 .film-card {
   border: 5px double rgb(29, 49, 70);
   border-radius: 10px;
-  padding: 20px ;
-  margin: 20px;
-  
+  padding: 5px;
+  margin: 5px;
 }
-
-
 
 .film-card img {
   border-radius: 8px;
@@ -115,12 +109,27 @@ nav a {
 .movie {
   display: inline-block;
   width: 200px;
-  margin: 10px;
+  height: 100%;
+  margin: 5px;
   text-align: center;
 }
 
 .movie img {
   width: 150px;
-  height: 225px;
+  height: 100%;
+}
+
+.welcome{
+  background-color: goldenrod;
+}
+
+
+.font-effect-fire-animation {
+  text-shadow: 8px 9px 10px;
+  text-decoration: rgb(2, 70, 49);
+  text-align: center;
+  font-style: italic;
+background-color: rgb(101, 121, 234);
+  font-family: "Times New Roman", Times, serif;
 }
 
