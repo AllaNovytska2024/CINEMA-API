@@ -67,7 +67,7 @@ footer {
 
 .container-film {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
   padding-top: 10px;
 }
@@ -84,10 +84,25 @@ footer {
   margin-bottom: 16px;
 }
 
-/* === */
-
 h1 {
   margin: 0;
+}
+h3 {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  color: rgb(229, 11, 11);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  text-shadow: 8px 8px 8px #427448;
+}
+
+p {
+  margin: 0;
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  
 }
 
 nav ul {
@@ -123,6 +138,9 @@ nav a {
 .movie img {
   width: 150px;
   height: 100%;
+  border-color: blue;
+  border: 15px;
+  
 }
 
 .welcome {
@@ -142,14 +160,19 @@ footer {
   width: 100%;
   height: 50px;
   background-color: gold;
+  border-radius: 30px;
+  padding: 15px;
 }
 
 .span {
   justify-content: space-between;
+  height: 45px;
+  width: 100%;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 0px;
   margin: 3px 9px 48px 9px;
   color: rgb(243, 17, 17);
+  
 }
 .span:hover {
   color: rgba(7, 2, 17, 0.542);
